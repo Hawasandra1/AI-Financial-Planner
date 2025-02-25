@@ -16,7 +16,7 @@ function DashboardHeader() {
 
   return (
     <div className="flex justify-between p-5 border-b shadow-sm">
-    <h1 className="text-xl font-bold text-white">Hi, {user?.firstName || "there"} 👋</h1>
+    <h1 className="text-xl font-bold text-black">Hi, {user?.firstName || "there"} 👋</h1>
     
     {/* Sign Out Button */}
     <button 

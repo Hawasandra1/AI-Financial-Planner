@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";  // Relative path
 import { useUser, UserButton } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
